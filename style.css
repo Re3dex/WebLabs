@@ -1,0 +1,59 @@
+
+#page {
+  background-color: #499EFF;
+  margin: 0 auto; 
+  max-width: 600px; 
+  padding: 20px; 
+  text-align: center;
+}
+
+
+#form {
+  background-color: #f9f9f9; 
+  border-radius: 10px; 
+  padding: 20px; 
+  display: inline-block; 
+}
+
+#buttons_div {
+  display: inline
+  background-color: #499EFF; 
+  padding: 10px;
+  margin: 10px auto; 
+  text-align: center;
+}
+
+
+#buttons_div input[type='button'] {
+  background-color: #499EFF; 
+  border: none;
+  margin: 5px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border-radius: 5px; 
+}
+
+#form input[type='text'],
+#form input[type='password'] {
+  width: calc(100% - 22px); 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  border-radius: 5px; 
+  border: 1px solid #ccc; 
+}
+
+
+#form input[type='button'] {
+  width: 100%; 
+  padding: 10px; 
+  border: none; 
+  background-color: #499EFF; 
+  color: white; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+/* Hover effect for the form submit button */
+#form input[type='button']:hover {
+  background-color: blue;
+}
